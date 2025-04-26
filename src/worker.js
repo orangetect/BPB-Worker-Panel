@@ -1,6 +1,6 @@
 import { initializeParams } from './src/helpers/init.js';
 import { VLOverWSHandler } from './src/protocols/vless.js';
-import { TROverWSHandler } from '/.src/protocols/trojan.js';
+import { TROverWSHandler } from './src/protocols/trojan.js';
 import { fallback, serveIcon, renderError, renderSecrets, handlePanel, handleSubscriptions, handleLogin } from './src/helpers/helpers.js';
 import { logout } from './src/authentication/auth.js';
 
