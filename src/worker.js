@@ -1,6 +1,6 @@
-import { initializeParams } from '.github/src/helpers/init.js';
-import { VLOverWSHandler } from '.github/src/protocols/vless.js';
-import { TROverWSHandler } from '.github/src/protocols/trojan.js';
+import { initializeParams } from './helpers/init.js';
+import { VLOverWSHandler } from './protocols/vless.js';
+import { TROverWSHandler } from './protocols/trojan.js';
 import { 
   fallback, 
   serveIcon, 
@@ -9,8 +9,8 @@ import {
   handlePanel, 
   handleSubscriptions, 
   handleLogin 
-} from '.github/src/helpers/helpers.js';
-import { logout } from '.github/src/authentication/auth.js';
+} from './helpers/helpers.js';
+import { logout } from './src/authentication/auth.js';
 
 const routeHandlers = {
   '/panel': handlePanel,
